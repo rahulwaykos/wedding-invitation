@@ -1,60 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" >
-   <head>
-      <link rel="shortcut icon" href="favicon.png" type="image/png"> 
-      <title>Wedding Invitation | June 06 | Paris Celebration, Nagpur</title>
-      <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dancing+Script&amp;display=swap'>
-      <link rel="stylesheet" href="./css/style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   </head>
-   <body>
-      <!-- partial:index.partial.html -->
-      <div class="sakura-falling"></div>
-      <img src="https://i.imgur.com/dGOOfnA.png" alt="image-top-right" class="top-right-decoration">
-      <img src="https://i.imgur.com/t6ffnbn.png" alt="image-top-left" class="top-left-decoration"> 
-      <section id="media"></section>
-      <div class="wrap">
-         <div class="title">
-            <h1>Hasti </h1>
-            <h2>&</h2>
-            <h1>Purval</h1>
-            <h3>Are getting married</h3>
-            <p>
-               on <span class="date">06 June 2025</span></29>, At <span class="place">Paris Celebration</span> Nagpur, Maharashtra                
-            </p>
-         </div>
-      </div>
-      <div id="time"></div>
-      <p class="dance-med">
-         dinner & dancing to follow
-      </p>
-      <div class="actions">
-        <a href="https://maps.app.goo.gl/jhE9UL4SSmirjqQp9" target="_blank">
-          <div class="venue">SEE THE VENUE</div>
-        </a>
-        <a href="./assets/video/WeddingInvite_HP.mp4" target="_blank">
-         <div class="venue">WEDDING</div>
-        </a>
-        <a href="./assets/img/Haldi_HP.png" target="_blank">
-         <div class="venue">HALDI</div>
-        </a>
-        <a href="./assets/video/Sangeet_HP.mp4" target="_blank">
-         <div class="venue">SANGEET</div>
-        </a>
-      </div>
-      <p class="footer">
-         Can't wait to celebrate auspicious moment of our family with you! <br>
-         Just a ping away for any queries: +91 7020405909
-         <span></span>
-      </p>
-      <div class="music">
-        <audio src="./assets/mp3/song.mp3" id="my_audio" loop="loop"></audio> 
-      </div>
-      <p class="happiness">Join us in our happiness!<br><a href="https://www.instagram.com/hasti.jhaveri/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a> <a href="https://www.instagram.com/purvalchankeshwara/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a></p>
-      <!-- partial -->
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-      <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
-      <script  src="./js/script.js"></script>
-   </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="ring">
+        <i style="--clr:#3240E1"></i>
+        <i style="--clr:#00ff0a"></i>
+        <i style="--clr:#7F66FF"></i>
+        <div class="login">
+            <h2>Enter 4-Digit Code</h2>
+            <div class="inputBox">
+                <input type="password" id="code" placeholder="CODE" maxlength="4">
+            </div>
+            <div class="inputBox">
+                <input type="submit" id="verifyBtn" value="Submit">
+            </div>
+            <div id="message"></div> <!-- Error or success message will show here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
